@@ -1,0 +1,20 @@
+#banner {
+	height: 50vh;
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+	background-position: center;
+	color: pink;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner img {
+height: 180px;
+width: 130px;
+object-fit: cover;
+border-radius: 60px;
+border: 2px solid black;
+padding: auto;
+}

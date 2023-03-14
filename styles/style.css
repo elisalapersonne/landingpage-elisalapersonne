@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import "banner.css";
+@import "buttons.css";
+@import "cards.css";
+@import "footer.css";
+
+body {
+	font-family: "Overpass", sans-serif;
+	background-color: rgb(30, 29, 31);
+	margin: 0;
+}
+.img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+h1{
+	color: rgb(251, 246, 211);
+	font-weight: bold;
+	text-align: center;
+	font-size: 350%;
+}
+
+p,a{
+	color: white;
+	font-weight: thin;
+	text-align: center;
+	width: 80%;
+    margin: 24px auto;
+}
+
+h2{
+	color: rgb(251, 246, 211);
+	text-align: center;
+}
+
+h3 {
+	color: black; 
+	text-align: center;
+}
+
+ul {text-align: center;
+	color: rgb(208, 208, 208);
+	font: italic;
+	list-style-type: none;
+	background-color: rgb(29, 28, 30);
+}
+
+.icons li {
+	display: inline;
+	position: center;
+	color: white; 
+	font-weight: thin;
+	font-size: x-large;
+	padding: 0;
+}
+
+.list-inline {
+	padding: 0;
+}
